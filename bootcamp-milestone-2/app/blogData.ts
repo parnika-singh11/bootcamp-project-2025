@@ -25,4 +25,5 @@ const Blogs: Blog[] = [
   },
 ];
 
+
 export default Blogs;
