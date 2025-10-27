@@ -5,7 +5,6 @@ import localFont from "next/font/local";
 import Navbar from "@/components/navbar";
 
 
-// If you are experiencing an error "localFont is undefined", you might need to add the following blocks of code
 const inter = Inter({ subsets: ["latin"] });
 
 
