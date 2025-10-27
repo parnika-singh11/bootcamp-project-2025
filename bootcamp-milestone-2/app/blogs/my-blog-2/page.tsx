@@ -1,5 +1,5 @@
 import React from "react";
-import Blogs from '@/app/blogData';
+import Blogs from '../../blogData';
 export default function MyBlog2() {
   return (
     <div>
