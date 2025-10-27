@@ -5,7 +5,7 @@ export default function Home() {
       <h1 className="page-title">Hello, world!</h1>
       <div className = "about">
         <div className = "about-image">
-          <img src ="images/calpoly.jpeg" alt="An image of the Cal Poly sign"/>
+          <img src ="/images/calpoly.jpeg" alt="An image of the Cal Poly sign"/>
         </div>
         <div className = "about-text">
           <p>

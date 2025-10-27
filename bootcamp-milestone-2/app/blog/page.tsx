@@ -1,5 +1,6 @@
 import BlogPreview from '@/components/blogPreview';
 import Blogs from '@/app/blogData';
+
 export default function Blog() {
  
   return (

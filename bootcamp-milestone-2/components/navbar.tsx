@@ -7,11 +7,11 @@ export default function Navbar() {
     <header className={style.navbar}>
       <h1> Parnika's Personal Website </h1>
       <nav className="navbar">
-        <Link href="/index.html">Home</Link>
-        <Link href="/blog.html">Blogs</Link>
-         <Link href="/portfolio.html">Portfolio</Link>
-        <Link href="/resume.html">Resume</Link>
-        <Link href="/contact.html">Contact Me</Link>
+        <Link href="/">Home</Link>
+        <Link href="/blog">Blogs</Link>
+         <Link href="/portfolio">Portfolio</Link>
+        <Link href="/resume">Resume</Link>
+        <Link href="/contact">Contact Me</Link>
       </nav>
     </header>
   );

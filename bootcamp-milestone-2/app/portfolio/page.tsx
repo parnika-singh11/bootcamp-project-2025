@@ -1,5 +1,5 @@
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <>
     <main>
@@ -12,7 +12,7 @@ export default function Blog() {
                 <p className="project-description">
                     A personal website created using the Hack4Impact bootcamp. This project was created by utilizing web development essentials like HTML, CSS and JavaScript.
                 </p>
-                <a href="index.html">Learn more</a>
+                <a href="/">Learn more</a>
             </div>
         </main>
         <footer className="footer">© 2025 Parnika's Personal Website | All Rights Reserved</footer>
