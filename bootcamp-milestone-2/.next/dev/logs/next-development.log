@@ -1,2 +1,543 @@
-[00:00:01.189] Server  LOG      ✓ Ready in 1083ms
-[00:00:16.225] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.681] Server  LOG      ✓ Ready in 513ms
+[00:00:08.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.626] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: [object Date]). If you meant to render a collection of children, use an array instead.
+[00:01:47.692] Server  ERROR    ⨯ Error: Objects are not valid as a React child (found: [object Date]). If you meant to render a collection of children, use an array instead.
+[00:01:47.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:47.904] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: [object Date]). If you meant to render a collection of children, use an array instead.
+[00:05:38.342] Browser ERROR   ./bootcamp-milestone-2/app/blog/page.tsx:30:43
+Parsing ecmascript source code failed
+  28 |             image={blog.image}
+  29 |             imageAlt={blog.imageAlt}
+> 30 |             description={blog.description.}
+     |                                           ^
+  31 |             slug={blog.slug}
+  32 |           />
+  33 |         ))}
+
+Expected '</', got '}'
+[00:05:40.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:43.914] Server  ERROR    ⨯ Error: Functions are not valid as a child of Client Components. This may happen if you return toString instead of <toString /> from render. Or maybe you meant to call this function rather than return it.
+  <p children={function toString}>
+              ^^^^^^^^^^^^^^^^^^^
+[00:05:44.005] Server  ERROR    ⨯ Error: Functions are not valid as a child of Client Components. This may happen if you return toString instead of <toString /> from render. Or maybe you meant to call this function rather than return it.
+  <p children={function toString}>
+              ^^^^^^^^^^^^^^^^^^^
+[00:05:44.341] Browser ERROR   uncaughtError: Error: Functions are not valid as a child of Client Components. This may happen if you return toString instead of <toString /> from render. Or maybe you meant to call this function rather than return it.
+  <p children={function toString}>
+              ^^^^^^^^^^^^^^^^^^^
+[00:05:45.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:38.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:58:44.228] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:58:53.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:58:58.227] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:01.228] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:07.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:14.226] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:17.228] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:24.228] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:29.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getBlogs();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:38.228] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:17:1
+Parsing ecmascript source code failed
+  15 | export default async function Blog() {
+  16 |   const blogs = await getProjects();
+> 17 | export default function Portfolio() {
+     | ^^^^^^
+  18 |   return (
+  19 |     <>
+  20 |     <main>
+
+'import', and 'export' cannot be used outside of module code
+[00:59:53.716] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[00:59:53.843] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[00:59:54.357] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[00:59:54.469] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[00:59:54.590] Browser ERROR   uncaughtError: OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:00:06.227] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:36:1
+Parsing ecmascript source code failed
+  34 |   );
+  35 | }
+> 36 | 
+     | ^
+
+Unterminated block comment
+[01:00:07.734] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:00:07.848] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:00:07.947] Browser ERROR   uncaughtError: OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:00:10.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:14:6
+Parsing ecmascript source code failed
+  12 |   }
+  13 | }
+> 14 | /**/ */
+     |      ^
+  15 | export default async function Blog() {
+  16 |   const blogs = await getProjects();
+  17 |   return (
+
+Expression expected
+[01:00:10.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:14:7
+Parsing ecmascript source code failed
+  12 |   }
+  13 | }
+> 14 | /**/ */
+     |       ^
+  15 | export default async function Blog() {
+  16 |   const blogs = await getProjects();
+  17 |   return (
+
+Unterminated regexp literal
+[01:00:14.707] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:00:14.821] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:00:14.910] Browser ERROR   uncaughtError: OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:00:32.702] Server  LOG      ✓ Compiled in 3ms
+[01:01:17.439] Server  LOG      ✓ Compiled in 2ms
+[01:02:59.227] Browser ERROR   ./bootcamp-milestone-2/database/ProjectSchema.ts:19:6
+Parsing ecmascript source code failed
+  17 |
+  18 |   return (
+> 19 |     <>
+     |      ^
+  20 |       <main>
+  21 |         <h1 className="portfolio-title">Portfolio</h1>
+  22 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/database/ProjectSchema.ts
+    ./bootcamp-milestone-2/app/portfolio/page.tsx
+[01:03:22.027] Server  LOG      ✓ Compiled in 4ms
+[01:03:22.184] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:03:22.332] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:03:22.432] Browser ERROR   uncaughtError: OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:05:07.315] Server  LOG      ✓ Compiled in 20ms
+[01:05:57.875] Server  LOG      ✓ Compiled in 40ms
+[01:06:12.366] Server  LOG      ✓ Compiled in 13ms
+[01:07:24.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:7:8
+Ecmascript file had an error
+   5 | // app/portfolio/page.tsx
+   6 | import connectDB from "@/database/db";
+>  7 | import ProjectModel from "@/database/ProjectSchema";
+     |        ^^^^^^^^^^^^
+   8 | import Link from "next/link";
+   9 |
+  10 | // Type for Project
+
+the name `ProjectModel` is defined multiple times
+[01:07:24.229] Browser ERROR   ./bootcamp-milestone-2/app/portfolio/page.tsx:6:8
+Ecmascript file had an error
+  4 |
+  5 | // app/portfolio/page.tsx
+> 6 | import connectDB from "@/database/db";
+    |        ^^^^^^^^^
+  7 | import ProjectModel from "@/database/ProjectSchema";
+  8 | import Link from "next/link";
+  9 |
+
+the name `connectDB` is defined multiple times
+[01:07:33.968] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:07:34.069] Server  ERROR    ⨯ OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:07:34.188] Browser ERROR   uncaughtError: OverwriteModelError: Cannot overwrite `blogs` model once compiled.
+[01:08:17.370] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[01:08:17.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:17.600] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[01:08:21.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:23.400] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[01:08:23.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:23.465] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[01:08:32.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:39.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:11.810] Server  LOG      ✓ Compiled in 11ms
+[01:10:14.147] Server  LOG      ✓ Compiled in 38ms
+[01:10:19.500] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[04:14:24.801] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[04:14:24.904] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:14:25.009] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[04:22:01.219] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[04:22:01.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:22:01.410] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[04:22:12.670] Server  LOG      ✓ Compiled in 31ms
+[04:22:13.097] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:91:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:24:57.685] Server  LOG      ✓ Compiled in 12ms
+[04:24:58.097] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Transforming CSS failed
+Selector "main" is not pure. Pure selectors must contain at least one local class or id.
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:28:08.657] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[04:28:08.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:28:08.852] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[04:29:11.299] Server  LOG      ✓ Compiled in 21ms
+[04:29:12.096] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:28.994] Server  ERROR    ⨯ ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+
+
+[04:29:29.136] Browser ERROR   uncaughtError: Error: ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+
+
+[04:29:29.274] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:29.274] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:29.274] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:29.274] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:29.274] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:29.275] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:29.275] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:29.275] Browser ERROR   ./bootcamp-milestone-2/components/navbar.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/parnikasingh/Desktop/bootcamp-project-2025/bootcamp-milestone-2/components/navbar.module.css:122:1: Unexpected }
+    [at Input.error (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/bootcamp-milestone-2/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./bootcamp-milestone-2/components/navbar.module.css
+    ./bootcamp-milestone-2/components/navbar.tsx
+    ./bootcamp-milestone-2/app/layout.tsx
+[04:29:34.168] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[04:29:34.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:29:34.247] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[04:30:51.840] Server  LOG      ✓ Compiled in 13ms
+[04:30:55.080] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[04:30:55.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:30:55.159] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[04:31:00.180] Server  LOG      ✓ Compiled in 8ms
