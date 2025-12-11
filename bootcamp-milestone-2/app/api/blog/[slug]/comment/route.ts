@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import connectDB from '@/database/db';
 import Blog from '@/database/blogSchema';
 
-export async function POST(req: NextRequest, context: { params: { slug: string } }) {
+export async function POST(req: NextRequest, context: { params: Promise<{ slug: string }> }) {
   const body = await req.json();
-  const params = await context.params;  // <-- unwrap the promise
+  const params = await context.params;  // ✅ Await the params promise
   const BlogSlug = params.slug;
 
   if (!body?.user || !body?.comment) {
@@ -25,7 +25,7 @@ export async function POST(req: NextRequest, context: { params: { slug: string }
   };
 
   blog.comments.push(newComment);
-  await blog.save();  // should work now
+  await blog.save();
 
   return NextResponse.json({ message: 'Comment added successfully!', comment: newComment });
 }
