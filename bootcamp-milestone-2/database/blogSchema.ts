@@ -1,4 +1,5 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Schema, Document } from "mongoose";
+
 
 export type IComment = {
   user: string;
@@ -6,35 +7,33 @@ export type IComment = {
   date: Date;
 };
 
-type Blog = {
+const commentSchema = new Schema<IComment>({
+  user: { type: String, required: true },
+  comment: { type: String, required: true },
+  date: { type: Date, required: true, default: () => new Date() }
+});
+
+
+export type BlogType = Document & {
   title: string;
   data: string;
   description: Date;
   image: string;
-  image_alt: string;
+  imageAlt: string;   // matches MongoDB document
   slug: string;
   comments: IComment[];
 };
 
-
-const commentSchema = new Schema<IComment>({
-  user: { type: String, required: true },
-  comment: { type: String, required: true },
-  date: { type: Date, required: true, default: new Date() }
-});
-
-
-const blogSchema = new Schema<Blog>({
+const blogSchema = new Schema<BlogType>({
   title: { type: String, required: true },
   data: { type: String, required: true },
-  description: { type: Date, required: false, default: new Date() },
+  description: { type: Date, required: false, default: () => new Date() },
   image: { type: String, required: true },
-  image_alt: { type: String, required: true },
+  imageAlt: { type: String, required: true },  // camelCase matches existing DB
   slug: { type: String, required: true },
-  comments: [commentSchema] 
+  comments: [commentSchema]
 });
 
-// Model
-const Blog = mongoose.models['blogs'] || mongoose.model('blogs', blogSchema);
+const Blog = mongoose.models['blogs'] || mongoose.model<BlogType>('blogs', blogSchema);
 
 export default Blog;

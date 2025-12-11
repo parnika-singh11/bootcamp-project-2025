@@ -20,7 +20,6 @@ export default function BlogPreview(props: BlogProps) {
           {props.title}
         </Link>
       </h3>
-      {/* Format description nicely since it's a Date */}
       <p>{props.description instanceof Date ? props.description.toDateString() : props.description}</p>
     </div>
   );
